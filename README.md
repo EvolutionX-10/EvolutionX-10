@@ -10,5 +10,3 @@
     </td>
   </tr>
 </table>
-
-![Profile View Counter](https://komarev.com/ghpvc/?username=EvolutionX-10)
