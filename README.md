@@ -1,5 +1,13 @@
 # Hello there!
-![Contribution](https://github.com/EvolutionX-10/EvolutionX-10/blob/output/github-contribution-grid-snake.svg)
+
+![Contribution](https://github.com/EvolutionX-10/EvolutionX-10/blob/output/github-contribution-grid-snake.svg) <br>
+Enjoy watching the snake eat my contributions
+
+<p align="center"> 
+  These numbers don't mean anything<br>
+  <img src="https://profile-counter.glitch.me/EvolutionX-10/count.svg" />
+</p>
+
 ## Stats!
 
 <table>
