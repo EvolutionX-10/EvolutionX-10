@@ -6,10 +6,11 @@
   <img alt="github-snake" src="https://github.com/EvolutionX-10/EvolutionX-10/blob/output/github-snake.svg" />
 </picture>
 <br>
-Enjoy watching the snake eat my contributions
 
 <p align="center"> 
-  These numbers don't mean anything<br>
+  <br>&nbsp;
+  <strong>These numbers don't mean anything, or maybe they do?</strong>
+  <br>&nbsp;
   <img src="https://profile-counter.glitch.me/EvolutionX-10/count.svg" />
 </p>
 
@@ -28,28 +29,27 @@ Enjoy watching the snake eat my contributions
 
 ---
 
-| 🎵 Now Playing                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| <a href="https://spotify-readme-gwnh.vercel.app/now-playing?open"><img src="https://spotify-readme-gwnh.vercel.app/now-playing" width="540" height="64"></a> |
-
-
 <table>
-  <thead>
+  <tr>
+    <th>🎵 Now Playing</th>
+  </tr>
+  <tbody>
+  <tr>
+    <td><a href="https://spotify-readme-gwnh.vercel.app/now-playing?open"><img src="https://spotify-readme-gwnh.vercel.app/now-playing" width="580" height="64"></td>
+  </tr>
     <tr>
       <th>📈 Top Tracks</th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
-      <td><a href="https://spotify-readme-gwnh.vercel.app/top-tracks?i=0&open"><img src="https://spotify-readme-gwnh.vercel.app/top-tracks?i=0" width="540" height="64"></a></td>
+      <td><a href="https://spotify-readme-gwnh.vercel.app/top-tracks?i=0&open"><img src="https://spotify-readme-gwnh.vercel.app/top-tracks?i=0" width="580" height="64"></a></td>
     </tr>
     <tr></tr> <!-- hide gray row -->
     <tr>
-      <td><a href="https://spotify-readme-gwnh.vercel.app/top-tracks?i=1&open"><img src="https://spotify-readme-gwnh.vercel.app/top-tracks?i=1" width="540" height="64"></a></td>
+      <td><a href="https://spotify-readme-gwnh.vercel.app/top-tracks?i=1&open"><img src="https://spotify-readme-gwnh.vercel.app/top-tracks?i=1" width="580" height="64"></a></td>
     </tr>
     <tr></tr> <!-- hide gray row -->
     <tr>
-      <td><a href="https://spotify-readme-gwnh.vercel.app/top-tracks?i=2&open"><img src="https://spotify-readme-gwnh.vercel.app/top-tracks?i=2" width="540" height="64"></a></td>
+      <td><a href="https://spotify-readme-gwnh.vercel.app/top-tracks?i=2&open"><img src="https://spotify-readme-gwnh.vercel.app/top-tracks?i=2" width="580" height="64"></a></td>
     </tr>
   </tbody>
 </table>
