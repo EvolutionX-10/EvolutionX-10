@@ -1,6 +1,11 @@
 # Hello there!
 
-![Contribution](https://github.com/EvolutionX-10/EvolutionX-10/blob/output/github-contribution-grid-snake.svg) <br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/EvolutionX-10/EvolutionX-10/blob/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/EvolutionX-10/EvolutionX-10/blob/output/github-snake.svg" />
+  <img alt="github-snake" src="https://github.com/EvolutionX-10/EvolutionX-10/blob/output/github-snake.svg" />
+</picture>
+<br>
 Enjoy watching the snake eat my contributions
 
 <p align="center"> 
