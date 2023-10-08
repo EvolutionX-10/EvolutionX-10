@@ -19,14 +19,13 @@ jobs:
     # Generates the snake  
       - uses: Platane/snk/svg-only@v3
         id: snake-gif
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           github_user_name: EvolutionX-10
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-          env:
-            # a github token is required to fetch the contribution calendar from github API
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
      # show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
