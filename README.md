@@ -8,10 +8,7 @@
 <br>
 
 <p align="center"> 
-  <br>&nbsp;
-  <strong>These numbers don't mean anything, or maybe they do?</strong>
-  <br>&nbsp;
-  <img src="https://profile-counter.glitch.me/EvolutionX-10/count.svg" />
+  <img src="https://wakatime.com/badge/user/f625cbe5-27ad-49a9-802e-e3c358c1b998.svg" />
 </p>
 
 ## Stats!
@@ -19,10 +16,10 @@
 <table>
   <tr>
     <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="https://github-readme-stats.vercel.app/api?username=EvolutionX-10&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" />
+      <img align="center" style="padding=0;" src="https://awesome-github-stats.azurewebsites.net/user-stats/EvolutionX-10?cardType=level-alternate&theme=tokyonight&preferLogin=false&border=false" />
     </td>
     <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding=0;" src="https://streak-stats.demolab.com?user=EvolutionX-10&theme=tokyonight&hide_border=true" />
+      <img align="center" style="padding=0;" src="https://nirzak-streak-stats.vercel.app/?user=EvolutionX-10&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="GitHub Streak Stats" />
     </td>
   </tr>
 </table>
