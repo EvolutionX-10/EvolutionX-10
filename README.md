@@ -41,7 +41,7 @@
       <img align="center" style="padding:0;" src="https://awesome-github-stats.azurewebsites.net/user-stats/EvolutionX-10?cardType=level-alternate&theme=tokyonight&preferLogin=false&border=false" alt="GitHub Stats" />
     </td>
     <td align="center" style="padding=0;width=50%;">
-      <img align="center" style="padding:0;" src="https://nirzak-streak-stats.vercel.app/?user=EvolutionX-10&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="GitHub Streak Stats" />
+      <img align="center" style="padding:0;" src="https://github-readme-streak-stats.herokuapp.com?user=EvolutionX-10&theme=tokyonight" alt="GitHub Streak Stats" />
     </td>
   </tr>
 </table>
