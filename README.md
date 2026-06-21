@@ -1,16 +1,17 @@
 <h1 align="center">Hey, I'm Aakhyan 👋</h1>
 
 <p align="center">
-  I build fast, accessible, and thoughtfully animated web apps with <b>React</b>, <b>Next.js</b>, and <b>TypeScript</b>.
-  I care about performance (quick FCP), clean components, and delightful UX.
+  CS grad shipping full-stack TypeScript apps with <b>Next.js</b>, <b>React</b>, and <b>Drizzle</b>.<br/>
+  I care about offline-first UX, clean data models, and squeezing every last millisecond out of the critical path.
 </p>
 
-## What I’m into
+## What I'm into
 
-- Frontend engineering with React/Next.js, TypeScript, and Tailwind
-- Accessibility, performance budgets, SEO, and design‑system components
-- Motion and micro‑interactions with Framer Motion
-- PWAs and modern DX tooling
+- Full-stack engineering with Next.js (App Router), React 19, TypeScript, and Tailwind
+- PWAs, service workers, IndexedDB mutation queues, offline-first UX
+- Performance, FCP budgets, N+1 elimination, connection pooling, and caching strategy
+- Competitive programming, 650+ LeetCode problems, always sharpening the fundamentals
+- Design systems with shadcn/ui, Radix primitives, and accessible components
 
 ## Stack (at a glance)
 
