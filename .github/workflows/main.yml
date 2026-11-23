@@ -1,46 +1,50 @@
-name: Contributions
+name: Contribution snake
+
 on:
   schedule:
-      # every 12 hours
-    - cron: "0 */6 * * *"
-    
+    # Twice daily, at 00:17 and 12:17 UTC.
+    - cron: "17 */12 * * *"
   workflow_dispatch:
   push:
     branches:
-    - main
+      - main
+    paths:
+      - .github/workflows/main.yml
 
-# The sequence of runs in this workflow:
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
 jobs:
-  build:
+  generate:
+    name: Generate and publish snake
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
-
-    # Generates the snake  
-      - uses: Platane/snk/svg-only@v3
-        id: snake-gif
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate light and dark animations
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
-          github_user_name: EvolutionX-10
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
-      - run: git status
-
-      # Push the changes
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          force: true
-
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Publish animations to output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
         with:
           target_branch: output
           build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+          committer: EvolutionX-10 <85353424+EvolutionX-10@users.noreply.github.com>
+          author: EvolutionX-10 <85353424+EvolutionX-10@users.noreply.github.com>
+          commit_message: "chore: refresh contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
